@@ -101,7 +101,7 @@
                  <td><?php echo $row['sname']   ?></td>
                  <td><?php echo $row['pnumber']   ?></td>
                  <td>
-                  <a href="" class="btn btn-info" type="button">View</a>
+                  <a href="example.php?id=<?php echo $row['id'];?>" class="btn btn-info" type="button">View</a>
                   <a href="" class="btn btn-success" type="button">Edit</a>
                   <a href="" class="btn btn-danger" type="button">Delete</a>
                  </td>
